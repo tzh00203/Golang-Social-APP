@@ -1,12 +1,10 @@
-***Language: ```Java```***
+***Language : ```Golang```***
 
-***Framework: ```Android```***
+***ChatFramework : ```WebSocket```*** 
 
-***IDE: ```Android Studio```***
+***DBuse Framework : ```gorm```***
 
-## **TODO 1**: 登录、注册
+***DB: ```Mysql```***
+## TODO: UI画图...
 
-## **TODO 2**: 定位上报、查询附近的人、双向匹配
-
-## **TODO 3**: 聊天功能
 
