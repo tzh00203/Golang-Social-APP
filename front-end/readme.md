@@ -1,10 +1,8 @@
-***Language : ```Golang```***
+***Language: ```Java```***
 
-***ChatFramework : ```WebSocket```*** 
+***Framework: ```Android```***
 
-***DBuse Framework : ```gorm```***
-
-***DB: ```Mysql```***
+***IDE: ```Android Studio```***
 ## TODO: UI画图...
 
 

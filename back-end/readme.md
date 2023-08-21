@@ -1,8 +1,11 @@
-***Language: ```Java```***
+***Language : ```Golang```***
 
-***Framework: ```Android```***
+***ChatFramework : ```WebSocket```*** 
 
-***IDE: ```Android Studio```***
+***DBuse Framework : ```gorm```***
+
+***DB: ```Mysql```***
+
 
 ## **TODO 1**: 登录、注册
 
