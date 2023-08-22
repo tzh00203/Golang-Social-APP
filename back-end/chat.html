@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Chat</title>
+</head>
+<body>
+    <h1>WebSocket聊天测试</h1>
+    <p>Welcome, {{ .username }}!</p>
+    <input type="text" id="messageInput" placeholder="输入聊天内容">
+    <button onclick="sendMessage()">Send</button>
+    <div id="messages"></div>
+
+    <script>
+        const ws = new WebSocket("ws://localhost:8080/ws?username={{ .username }}");
+
+        ws.onopen = () => {
+            console.log("WebSocket connection opened.");
+        };
+
+        ws.onmessage = event => {
+            const messagesDiv = document.getElementById("messages");
+            messagesDiv.innerHTML += `<p>${event.data}</p>`;
+        };
+
+        ws.onclose = () => {
+            console.log("WebSocket connection closed.");
+        };
+
+        function sendMessage() {
+            const messageInput = document.getElementById("messageInput");
+            const message = messageInput.value;
+            ws.send(message);
+            messageInput.value = "";
+        }
+    </script>
+</body>
+</html>
