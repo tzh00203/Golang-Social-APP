@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Soul</string>
+    <string name="input_text">Type something here</string>
+    <string name="btn_send">send</string>
+    <string name="chat_receiver">somebody</string>
+    <string name="btn_back">back</string>
+</resources>
