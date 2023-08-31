@@ -15,7 +15,7 @@ func Login(ctx *gin.Context) {
 
 	// 处理前端数据
 	var requestUser model.User
-	ctx.Bind(&requestUser)
+	ctx.BindJSON(&requestUser)
 	name := requestUser.Name
 	password := requestUser.Password
 

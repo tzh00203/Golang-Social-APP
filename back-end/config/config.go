@@ -32,6 +32,7 @@ func CreateDB() {
 	ctx, cancelfunc := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancelfunc()
 	_, err = db.ExecContext(ctx, "CREATE DATABASE IF NOT EXISTS "+dbname)
+
 	if err != nil {
 		log.Printf("Error %s when creating DB\n", err)
 		return

@@ -3,6 +3,7 @@ package controller
 import (
 	"back-end/model"
 	"back-end/tools"
+	"log"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -18,6 +19,7 @@ func Register(ctx *gin.Context) {
 	ctx.Bind(&requestUser)
 	name := requestUser.Name
 	password := requestUser.Password
+	log.Printf("Parsed User: %+v\n", requestUser)
 
 	//数据验证
 	if len(name) == 0 {
@@ -37,10 +39,10 @@ func Register(ctx *gin.Context) {
 
 	//判断用户名是否已经存在
 	var existinguser model.User
-	db.Where("name = ?").First(&existinguser)
+	db.Where("name = ?", name).First(&existinguser)
 	if existinguser.ID != 0 {
-		ctx.JSON(http.StatusUnprocessableEntity, gin.H{
-			"code":    422,
+		ctx.JSON(http.StatusConflict, gin.H{
+			"code":    409,
 			"message": "用户名已存在",
 		})
 		return
