@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="16dp" /> <!-- 调整这个值来改变圆角的弧度 -->
+    <solid android:color="@android:color/white" /> <!-- 背景颜色 -->
+</shape>

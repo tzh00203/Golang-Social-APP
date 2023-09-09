@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f273078f-1286-415a-a052-0366beb09ec9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/Connect2Mysql.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/.idea/gotest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/back-end.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/hello.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/androidTest/java/com/example/soul/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/java/com/example/soul/chat/activity/ChatActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/java/com/example/soul/chat/adapter/MsgAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/java/com/example/soul/chat/data/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/java/com/example/soul/locate/LocateActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/java/com/example/soul/registerNlogin/Entry2Soul.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/java/com/example/soul/registerNlogin/login/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/drawable/ic_back_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/drawable/message_left.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/drawable/message_right.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/drawable/receiver_icon_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/drawable/rounded_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/drawable/sender_icon_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/layout/activity_chat_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/layout/activity_chat_msg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/layout/activity_entry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/layout/activity_locate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/app/src/test/java/com/example/soul/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/Soul/settings.gradle.kts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Go_1.21.0" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2V38GizhTkxRZ3ilFVRUKonodX7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;frontend&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/86135&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ScientificResearch\Golang-Social-APP\back-end\controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build back-end" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="back-end" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="back-end" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
